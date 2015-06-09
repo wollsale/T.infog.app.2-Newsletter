@@ -1,0 +1,85 @@
+form.unsubscribe {
+    max-width: 600px;
+    width: 100%;
+    left: 50%;
+    margin-left: -300px;
+    height: auto;
+    fieldset {
+        width: 100%;
+        legend {
+            text-align: center;
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #dedede;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        ol {
+            width: 100%;
+            li {
+                width: 100%;
+                margin-bottom: 30px;
+                label {
+                    float: left;
+                    font-style: italic;
+                    opacity: .4;
+                }
+                textarea {
+                    outline: none;
+                    padding: 20px;
+                    &:focus {
+                        border: 1px solid #62bf4c;
+                    }
+                }
+                input {
+                    margin-top: 20px;
+                    width: calc(100% - 40px);
+                    padding: 20px;
+                    &[type="submit"] {
+                        margin-top: 15px;
+                        background-color: #44c767;
+                        -moz-border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        border-radius: 5px;
+                        border: 1px solid #18ab29;
+                        display: inline-block;
+                        cursor: pointer;
+                        color: #ffffff;
+                        font-size: 17px;
+                        padding: 25px 25px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        text-shadow: 0px 1px 0px #2f6627;
+                        float: right;
+                        width: 50%;
+                    }
+                }
+                textarea {
+                    width: calc(100% - 45px);
+                }
+            }
+        }
+    }
+}
+
+p.feedbackunsubscribe {
+    width: 100%;
+    color: #fff;
+    background: #18ab29;
+    padding: 20px;
+    text-align: center;
+    span {
+        font-style: italic;
+        opacity: .8;
+    }
+}
+p.error {
+    float: right;
+    font-style: italic;
+    font-weight: 100;
+    color: #e24d39;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
